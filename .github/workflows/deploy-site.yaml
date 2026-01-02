@@ -1,3 +1,6 @@
+permissions:
+  contents: write
+
 name: Deploy to Github Pages
 
 # run when a commit is pushed to "source" branch
