@@ -1,4 +1,5 @@
-baseURL: "https://adithyarn2005.github.io/"
+baseURL: "https://adithyarn2005.github.io/AdithyaRN2005/"
+canonifyURLs: true
 languageCode: en-us
 title: Adithya | Documenting My Journey 
 
