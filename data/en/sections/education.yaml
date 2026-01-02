@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B-Tech in Electrical Engineering
+  icon: fa-microscope
+  timeframe: 2023-2027
+  institution:
+    name: Indian Institute of Technology Palakkad
+    url: "https://www.iitpkd.ac.in/"
+    # logo: "https://iitpkd.ac.in/sites/default/files/inline-images/IIT_PKD_short%20logo_RGB.jpg" # Path of the logo image
+    # logo: /images/education/IIT_PKD.jpg # Path of the logo image
+    # darkLogo: /images/education/college-dark.png #(optional), Can optionally show a different logo for dark theme
+  grade: #(optional)
+    scale: CGPA
+    achieved: 9.17
+    outOf: 10
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #   url: "#"
+  # extracurricularActivities: #(optional), supports markdown
+  # - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  # - Fusce eu augue ut odio porttitor pulvinar.
+  # custonSections: #(optional)
+  #   - name: Thesis
+  #     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   - name: Supervisor
+  #     content: Fusce eu augue ut odio porttitor pulvinar.
+
+
