@@ -1,5 +1,9 @@
 baseURL: "https://adithyarn2005.github.io/"
 canonifyURLs: true
+site:
+  verify:
+    google: "e7rjdy1IrYoXeN8aq7jitEKWhbHxISSscTwEDLXFYpk"
+
 
 languageCode: en-us
 title: Adithya | Documenting My Journey 
