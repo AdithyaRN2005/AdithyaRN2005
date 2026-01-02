@@ -1,8 +1,5 @@
 baseURL: "https://adithyarn2005.github.io/"
 canonifyURLs: true
-site:
-  verify:
-    google: "e7rjdy1IrYoXeN8aq7jitEKWhbHxISSscTwEDLXFYpk"
 
 
 languageCode: en-us
@@ -51,7 +48,10 @@ enableEmoji: true
 
 # Site parameters
 params:
-
+  site:
+      verify:
+        google: "e7rjdy1IrYoXeN8aq7jitEKWhbHxISSscTwEDLXFYpk"
+    
   # GitHub repo URL of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
 
