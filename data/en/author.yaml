@@ -1,9 +1,9 @@
 # some information about you
-name: "Adithya Ramesh"
+name: "Adithya Ramesh Nambiar"
 nickname: "Adithya"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
-# image: "images/author/john.png"
+image: "images/author/MyProfile.jpeg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "adithyarameshn@gmail.com"

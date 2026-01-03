@@ -3,7 +3,7 @@ canonifyURLs: true
 
 
 languageCode: en-us
-title: Adithya | Documenting My Journey 
+title: Adithya's Blog 
 
 module:
   imports:
@@ -50,6 +50,8 @@ enableEmoji: true
 
 # Site parameters
 params:
+  background: images/bg_image.png
+
   site:
       verify:
         google: "e7rjdy1IrYoXeN8aq7jitEKWhbHxISSscTwEDLXFYpk"
