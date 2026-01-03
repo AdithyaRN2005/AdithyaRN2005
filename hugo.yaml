@@ -57,9 +57,13 @@ params:
   # GitHub repo URL of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
 
+
   features:
     # Enable portfolio section
     portfolio:
+      enable: true
+
+    darkMode:
       enable: true
 
     # Enable blog posts
@@ -70,6 +74,12 @@ params:
     toc:
       enable: true
 
+    analytics:
+      enable: true
+      services:
+      # GoatCounter
+      goatCounter:
+        instance: https://adithyarn2005.goatcounter.com/count  # For self-hosted you should use only one of the two methods
   # Configure footer
 
   footer:

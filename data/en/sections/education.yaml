@@ -11,12 +11,10 @@ section:
 
 degrees:
 - name: B-Tech in Electrical Engineering
-  icon: fa-microscope
   timeframe: 2023-2027
   institution:
     name: Indian Institute of Technology Palakkad
     url: "https://www.iitpkd.ac.in/"
-    # logo: "https://iitpkd.ac.in/sites/default/files/inline-images/IIT_PKD_short%20logo_RGB.jpg" # Path of the logo image
     # logo: /images/education/IIT_PKD.jpg # Path of the logo image
     # darkLogo: /images/education/college-dark.png #(optional), Can optionally show a different logo for dark theme
   grade: #(optional)
