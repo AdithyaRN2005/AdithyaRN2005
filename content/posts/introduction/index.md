@@ -10,10 +10,12 @@ menu:
 tags: ["Basic", "Multi-lingual"]
 categories: ["Basic"]
 ---
+# Welcome
+Greeting! This is an introduction post. This post tests the followings:
 
-Greeting! This is an introduction post.
- <!-- This post tests the followings:
-
+## Information
 - Hero image is in the same directory as the post.
+
+### Information 1
 - This post should be at top of the sidebar.
-- Post author should be the same as specified in `author.yaml` file. -->
+- Post author should be the same as specified in `author.yaml` file.

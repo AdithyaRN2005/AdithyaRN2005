@@ -235,7 +235,18 @@ document.documentElement.setAttribute('data-theme', theme)
   
     
     <li>
-      <i data-feather="plus-circle"></i><a class=" list-link" href="http://localhost:1313/posts/communication/"> Communication Protocols</a>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="http://localhost:1313/posts/category/"> Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="http://localhost:1313/posts/category/sub-category/"> Sub-Category</a>
       
       <ul class="">
         
@@ -246,19 +257,13 @@ document.documentElement.setAttribute('data-theme', theme)
   
     
     
-    <li><a class=" list-link" href="http://localhost:1313/posts/communication/intro/" title="Introduction">Introduction</a></li>
+    <li><a class=" list-link" href="http://localhost:1313/posts/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
     
   
 
-  
-  
-  
-  
-  
-    
-    
-    <li><a class=" list-link" href="http://localhost:1313/posts/communication/uart/" title="UART">UART</a></li>
-    
+
+      </ul>
+    </li>
   
 
 
@@ -273,7 +278,7 @@ document.documentElement.setAttribute('data-theme', theme)
   
     
     
-    <li><a class=" list-link" href="http://localhost:1313/posts/myfirstpost/" title="Next Post">Next Post</a></li>
+    <li><a class=" list-link" href="http://localhost:1313/posts/post2/" title="Markdown Sample">Markdown Sample</a></li>
     
   
 
@@ -313,12 +318,18 @@ document.documentElement.setAttribute('data-theme', theme)
 
         
         <div class="post-content" id="post-content">
-          <p>Greeting! This is an introduction post.</p>
- <!-- This post tests the followings:
+          <h1 id="welcome">Welcome</h1>
+<p>Greeting! This is an introduction post. This post tests the followings:</p>
+<h2 id="information">Information</h2>
+<ul>
+<li>Hero image is in the same directory as the post.</li>
+</ul>
+<h3 id="information-1">Information 1</h3>
+<ul>
+<li>This post should be at top of the sidebar.</li>
+<li>Post author should be the same as specified in <code>author.yaml</code> file.</li>
+</ul>
 
-- Hero image is in the same directory as the post.
-- This post should be at top of the sidebar.
-- Post author should be the same as specified in `author.yaml` file. -->
         </div>
 
         
@@ -374,9 +385,6 @@ document.documentElement.setAttribute('data-theme', theme)
   
   
 
-  
-  
-
 
 <div class="row next-prev-navigator">
   
@@ -384,9 +392,9 @@ document.documentElement.setAttribute('data-theme', theme)
       
       
       <div class="col-md-12 next-article">
-        <a href="http://localhost:1313/posts/communication/intro/" title="Introduction" class="btn filled-button">
+        <a href="http://localhost:1313/posts/category/sub-category/rich-content/" title="Rich Content" class="btn filled-button">
           <div>Next <i class="fas fa-chevron-circle-right"></i></div>
-          <div class="next-prev-text">Introduction</div>
+          <div class="next-prev-text">Rich Content</div>
         </a>
       </div>
     
@@ -418,7 +426,15 @@ document.documentElement.setAttribute('data-theme', theme)
       <h5 class="text-center ps-3">Table of Contents</h5>
       <hr>
       <div class="toc">
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#information">Information</a>
+      <ul>
+        <li><a href="#information-1">Information 1</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
       </div>
     </div>
     
